@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - AYO Fashion</title>
+    <link rel="stylesheet" href="style01.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .about-section, .mission-section, .values-section, .team-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .about-section h1, .mission-section h2, .values-section h2, .team-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .about-section p, .mission-section p, .values-section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #555;
+        }
+        .values-section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .values-section li {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #555;
+            margin: 10px 0;
+        }
+        .team-section {
+            padding: 50px;
+        }
+        .team {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .team-member {
+            margin: 20px;
+            text-align: center;
+        }
+        .team-member img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .team-member h3 {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+        .team-member p {
+            font-size: 1em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index1.html"><img src="Images/logo-black.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index1.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="Images/cart.png" width="30px" height="30px"></a>
+                <img src="Images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </div>
+
+    <div class="about-section">
+        <h1>About Us</h1>
+        <p>Welcome to AYO Fashion! We are passionate about providing high-quality fashion items that help you express your unique style. Our mission is to offer a diverse range of products that cater to all tastes and preferences. We believe in sustainable fashion and strive to bring you the best in both style and quality.</p>
+    </div>
+
+    <div class="mission-section">
+        <h2>Our Mission</h2>
+        <p>Our mission is to inspire and empower individuals to embrace their personal style through fashion. We aim to deliver high-quality, sustainable, and affordable fashion products that meet the evolving needs of our customers.</p>
+    </div>
+
+    <div class="values-section">
+        <h2>Our Values</h2>
+        <ul>
+            <li><strong>Quality:</strong> We prioritize high-quality materials and craftsmanship in all our products.</li>
+            <li><strong>Sustainability:</strong> We are committed to sustainable practices that minimize our environmental impact.</li>
+            <li><strong>Diversity:</strong> We celebrate diversity and inclusion, offering fashion that caters to all styles and body types.</li>
+            <li><strong>Customer Satisfaction:</strong> Our customers are at the heart of everything we do. We strive to provide exceptional service and products that exceed expectations.</li>
+            <li><strong>Innovation:</strong> We embrace innovation and creativity in our designs and operations to stay ahead of trends and meet the dynamic needs of the fashion industry.</li>
+        </ul>
+    </div>
+
+    <div class="team-section">
+        <h2>Meet Our Team</h2>
+        <div class="team">
+            <div class="team-member">
+                <img src="Images/user-1.png" alt="Team Member 1">
+                <h3>Jane Doe</h3>
+                <p>Founder & CEO</p>
+            </div>
+            <div class="team-member">
+                <img src="Images/user-2.png" alt="Team Member 2">
+                <h3>John Smith</h3>
+                <p>Chief Designer</p>
+            </div>
+            <div class="team-member">
+                <img src="Images/user-3.png" alt="Team Member 3">
+                <h3>Sarah Johnson</h3>
+                <p>Marketing Director</p>
+            </div>
+            <!-- Add more team members as needed -->
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOS mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="Images/play-store.png">
+                        <img src="Images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Images/logo-white.png">
+                    <p>Our Purpose is to sustainably make the pleasure and benefit of sports accessible to the many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>TikTok</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright © Navod 2024 <i class="fa fa-heart"></i>. All rights reserved</p>
+        </div>
+    </div>
+
+    <script>
+        // Toggle menu script
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight === "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>
